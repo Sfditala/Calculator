@@ -1,0 +1,57 @@
+body{
+   align-items: center;
+    padding: 50px 50px;
+   margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 1%, 59%);
+
+
+
+}
+.Calcucontiner{
+
+background-color: hsla(260, 19%, 6%, 0.884);
+padding: 25px;
+width: 235px;
+border: 2px solid rgb(119, 119, 126);
+border-radius: 10px;
+box-shadow:5px 2px 20px rgb(255, 255, 255) ;
+
+}
+
+
+#display{
+    width: 215px;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+}
+
+
+button{
+
+    background-color: rgb(202, 202, 243);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+button:hover{
+    background-color: hsl(225, 5%, 34%);
+}
